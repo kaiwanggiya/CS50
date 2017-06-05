@@ -1,12 +1,3 @@
-/********************************************************
-*   This is a simple C program that allows you to       *
-*   determine whether a given credit card number        *
-*   is a Visa, American Express, or MasterCard.         *
-*                                                       *
-*   Kai Wanggiya                                        *
-*                                                       *
-*********************************************************/
-
 #include <cs50.h>
 #include <stdio.h>
 #include <string.h>
