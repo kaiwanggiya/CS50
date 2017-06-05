@@ -1,5 +1,5 @@
 /**
- * helpers.h
+ * helpers.c
  *
  * Helper functions for Problem Set 3.
  */
