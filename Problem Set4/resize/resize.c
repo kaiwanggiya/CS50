@@ -1,4 +1,4 @@
-**
+/**
  * resize.c
  *
  * Computer Science 50
