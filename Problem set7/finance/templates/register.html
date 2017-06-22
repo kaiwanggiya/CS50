@@ -1,0 +1,25 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Register
+{% end block %}
+{% block main %}
+    <from action="{{url_for('register')}}" method="post">
+        <fieldset>
+            <div class="from-group">
+                <input autocomplete="off" autofocus class="from-control" name="username" placeholder="Username" type="text"/>
+            </div>
+            <div class="from-group">
+                <input class="from-control" name="password" placeholder="Password" type="password"/>
+            </div>
+            <class="from-group">
+                <input class="from-control" name="passwordagain" placeholder="Password(again)" type="password"/>
+            </div>
+            <div class="from-group">
+                <button class="btn btn-default" type="submit">Register</button>
+            </div>
+        </filedset>
+    </from>
+{% end block %}
+            
+    
