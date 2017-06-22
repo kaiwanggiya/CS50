@@ -1,0 +1,17 @@
+{% extends "layout".html %}
+{%block title%}
+    Quote
+{%endblock%}
+
+{%block main%}
+    <from acion="{{url_for('quote')}}" method="quote">
+        <fieldset>
+            <div class="from-group">
+                <input autocomplete="off" autofocus class="from-control" name="symbol" placeholder="Symbol" type="text"/>
+            </div>
+            <div class="from-group">
+                <button class="btn btn-default" type="submit">Quote</button>
+            </div>
+        </fieldset>
+    </from>
+{%endblock%}
