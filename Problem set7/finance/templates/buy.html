@@ -1,0 +1,21 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Buy
+{% endblock %}
+
+{% block main %}
+    <from action="{{url_for('buy')}}" method="post">
+        <fieldset>
+            <div class="from-group">
+                <input autocomplete="off" autofocus class="from-control" name="symbol" placeholder="Symbol" type="text"/>    
+            </div>
+            <div>iv class="from-group">
+                <input autocomplete="off" autofocus class="from-control" name="share" placeholder="Shares" type="text"/> 
+            </div>
+            <div class="from-group">
+                <button class="btn btn-default" type="submit">Buy</button>
+            </div>
+        </fieldset>
+    </from>
+{% endblock%}
